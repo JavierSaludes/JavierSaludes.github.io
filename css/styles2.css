@@ -48,7 +48,7 @@ nav ul
 
 nav ul li
 {
-	font-size:.9em;
+	font-size: 1em;
 	display: inline-block;
 	width: 20%;
 	float: left;
@@ -77,7 +77,7 @@ font-size: 125%;
 #hero
 {
 	width: 100%;
-	height: 100px;
+	height: 25px;
 	background-image: url("../images/carbon fiber.jpg");
 	background-size: 75%;
 	background-position: center;
@@ -106,7 +106,7 @@ main
 
 img
 {
-	width: 95%;
+	width: 100%;
 	position: relative;
 	top: -10px;
 	left: 31%;
@@ -120,13 +120,12 @@ img
 
 article
 {
-	width: 70%;
+	width: 67%;
 	background-color: #000000;
 	color: white;
-	padding: 20px 100px 30px;
+	padding: 5px 100px 30px;
 	position: relative;
 	z-index: 10;
-	height: 3700px;
 	background-position: center;
 	text-align: center;
 	text-shadow: 2px 2px 4px #ff0000;
@@ -137,8 +136,9 @@ article
 article h2
 {
 	/*font-size: 16px;*/
-	font-size: 2.375em;
+	font-size: 1.9em;
 	margin-bottom: 40px;
+	text-shadow: 2px 2px 4px #ff0000;
 
 }
 
@@ -174,7 +174,6 @@ footer
 	font-size: 1.25em;
 	text-align: center;
 	height: 300px;
-	
 }
 
 @media screen and (max-width: 1280px){
@@ -183,7 +182,6 @@ footer
 		width: 63%;
 		padding-left: 1px;
 		padding-right: 1px;
-		height: 3100px;
 		font-size:1.25em;
 	}
 	header
@@ -197,19 +195,14 @@ footer
 		height: 50px;
 		font-size: .9em;
 	}
-	#hero 
-	{
-		height: 50px;
-		background-color: #000000;
-	}
+	
 
-	@media screen and (max-width: 1080px){
+@media screen and (max-width: 1080px){
 	article
 	{
 		width: 63%;
 		padding-left: 1px;
 		padding-right: 1px;
-		height: 2600px;
 		font-size:1.15em;
 	}
 	header
@@ -223,39 +216,9 @@ footer
 		height: 50px;
 		font-size: .9em;
 	}
-	#hero 
-	{
-		height: 50px;
-		background-color: #000000;
-	}
+	
 
-	@media screen and (max-width: 800px){
-	article
-	{
-		width: 63%;
-		padding-left: 1px;
-		padding-right: 1px;
-		height: 1925px;
-		font-size:1em;
-	}
-	header
-	{
-		padding: 10px 0;
-		height: 50px;
-	}
-	footer
-	{
-		padding: 10px 0;
-		height: 50px;
-		font-size: .9em;
-	}
-	#hero 
-	{
-		height: 50px;
-		background-color: #000000;
-	}
-
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
 	.layout
 	{
 		width: 60%;
@@ -282,11 +245,7 @@ footer
 		width: 100%;
 		float: none;
 	}
-	#hero 
-	{
-		height: 25px;
-		background-color: #000000;
-	}
+	
 
 main img 
 	{
@@ -298,7 +257,6 @@ article
 		width: 63%;
 		padding-left: 1px;
 		padding-right: 1px;
-		height: 1450px;
 		font-size:.9em;
 		text-align: center;
 	}
@@ -307,7 +265,7 @@ article:before
 	{
 	height: 50px;
 	top: -50px;
-}
+	}
 
 @media screen and (max-width: 500px){
 	article
@@ -315,7 +273,6 @@ article:before
 		width: 63%;
 		padding-left: 1px;
 		padding-right: 1px;
-		height: 1200px;
 		font-size:.9em;
 		text-align: center;
 	}
@@ -337,7 +294,7 @@ article:before
 		width: 63%;
 		padding-left: 1px;
 		padding-right: 1px;
-		height: 975px;
+		
 		font-size:.9em;
 		text-align: right;
 	}
@@ -359,7 +316,7 @@ article:before
 		width: 63%;
 		padding-left: 1px;
 		padding-right: 1px;
-		height: 775px;
+		
 		font-size:.9em;
 		text-align: right;
 	}
